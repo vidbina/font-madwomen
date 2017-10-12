@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1507840537
-ModificationTime: 1507844281
+ModificationTime: 1507847482
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,12 +43,12 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 24 3
+WinInfo: 40 10 6
 BeginPrivate: 0
 EndPrivate
 Grid
 -500 101 m 0
- 2500 101 l 1028
+ 2500 101 l 1024
   Named: "w-x"
 -500 707 m 0
  2500 707 l 1024
@@ -62,13 +62,13 @@ Grid
 -500 606 m 0
  2500 606 l 1024
   Named: "3"
-606 1500 m 0
+606 1500 m 4
  606 -1000 l 1024
   Named: "b"
-202 1500 m 0
+202 1500 m 4
  202 -1000 l 1024
   Named: "a"
-404 1500 m 0
+404 1500 m 4
  404 -1000 l 1024
   Named: "y-mid"
 -500 -202 m 0
@@ -83,46 +83,46 @@ Grid
 -1000 1212 m 0
  3000 1212 l 1024
   Named: "cap-height"
-808 1500 m 0
+808 1500 m 4
  808 -1000 l 1024
   Named: "char-width"
 -1000 808 m 0
  3000 808 l 1024
   Named: "x-height"
 EndSplineSet
-BeginChars: 1114112 4
+BeginChars: 1114113 12
 
 StartChar: M
 Encoding: 77 77 0
 Width: 909
 VWidth: 0
 Flags: HW
-HStem: 0 21G<50.5004 252.5>
-VStem: 50.5004 202<0 606> 656.5 202<-202 606>
+HStem: 0 21G<0.000390625 202>
+VStem: 0.000390625 202<0 606> 606 202<-202 606>
 LayerCount: 2
 Fore
 SplineSet
-50.5 0 m 25
- 50.5 1010 l 25
- 252.5 1010 l 25
- 454.5 707 l 25
- 656.5 1010 l 25
- 858.5 808 l 25
- 858.5 -404 l 25
- 656.5 -202 l 1
- 656.5 606 l 25
- 454.5 404 l 1
- 252.5 606 l 25
- 252.5 0 l 1
- 50.5 0 l 25
+0 0 m 29
+ 0 1010 l 29
+ 202 1010 l 29
+ 404 707 l 29
+ 606 1010 l 29
+ 808 808 l 29
+ 808 -404 l 29
+ 606 -202 l 5
+ 606 606 l 29
+ 404 404 l 5
+ 202 606 l 29
+ 202 0 l 5
+ 0 0 l 29
 EndSplineSet
 EndChar
 
 StartChar: A
 Encoding: 65 65 1
-Width: 858
+Width: 909
 VWidth: 0
-Flags: HW
+Flags: HWO
 HStem: 0 202<264 606> 788 20G<520.244 808>
 VStem: 606 202<202 566>
 LayerCount: 2
@@ -146,23 +146,23 @@ Encoding: 68 68 2
 Width: 707
 VWidth: 0
 Flags: HW
-HStem: 0 202<253 455> 606 202<253 455>
-VStem: 51 202<202 606> 455 202<202 606>
+HStem: 0 202<202 404> 606 202<202 404>
+VStem: 0 202<202 606> 404 202<202 606>
 LayerCount: 2
 Fore
 SplineSet
-253 202 m 1
- 455 202 l 1
- 455 606 l 1
- 253 606 l 1
- 253 202 l 1
-51 0 m 1
- 51 808 l 1
- 455 808 l 1
- 657 606 l 1
- 657 202 l 1
- 455 0 l 1
- 51 0 l 1
+202 202 m 1
+ 404 202 l 1
+ 404 606 l 1
+ 202 606 l 1
+ 202 202 l 1
+0 0 m 1
+ 0 808 l 1
+ 404 808 l 1
+ 606 606 l 1
+ 606 202 l 1
+ 404 0 l 1
+ 0 0 l 1
 EndSplineSet
 EndChar
 
@@ -171,6 +171,81 @@ Encoding: 119 119 3
 Width: 2024
 VWidth: 0
 Flags: H
+LayerCount: 2
+Fore
+SplineSet
+202 0 m 5
+ 0 202 l 5
+ 0 808 l 1
+ 202 808 l 1
+ 202 346 l 5
+ 404 606 l 5
+ 606 346 l 29
+ 606 808 l 1
+ 808 808 l 1
+ 808 0 l 5
+ 606 0 l 5
+ 404 256 l 5
+ 202 0 l 5
+EndSplineSet
+EndChar
+
+StartChar: o
+Encoding: 111 111 4
+Width: 856
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+202.5 202 m 25
+ 553 202 l 25
+ 553 606 l 25
+ 202.5 606 l 25
+ 202.5 202 l 25
+202.5 0 m 25
+ 0.5 202 l 25
+ 0.5 606 l 25
+ 202.5 808 l 25
+ 553 808 l 25
+ 755 606 l 1
+ 755 202 l 25
+ 553 0 l 5
+ 202.5 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: m
+Encoding: 109 109 5
+Width: 909
+VWidth: 0
+Flags: HW
+HStem: 0 21G<50.5004 252.5>
+VStem: 50.5004 202<0 606> 656.5 202<-202 606>
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 1
+ 0 808 l 1
+ 202 808 l 1
+ 404 518 l 1
+ 606 808 l 1
+ 808 606 l 5
+ 808 0 l 1
+ 606 0 l 1
+ 606 448 l 1
+ 404 202 l 1
+ 202 448 l 1
+ 202 0 l 1
+ 0 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: W
+Encoding: 87 87 6
+Width: 909
+VWidth: 0
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -187,6 +262,110 @@ SplineSet
  606 -202 l 1
  404 54 l 1
  202 -202 l 1
+EndSplineSet
+EndChar
+
+StartChar: a
+Encoding: 97 97 7
+Width: 909
+VWidth: 0
+Flags: HW
+HStem: 0 202<264 606> 788 20G<520.244 808>
+VStem: 606 202<202 566>
+LayerCount: 2
+Fore
+SplineSet
+606 202 m 1
+ 606 566 l 1
+ 264 202 l 1
+ 606 202 l 1
+808 0 m 1
+ 202 0 l 29
+ 0 202 l 1
+ 358.666666667 606 l 1
+ 201 606 l 1
+ 202 808 l 1
+ 808 808 l 1
+ 808 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 8
+Width: 707
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+606 0 m 25
+ 202 0 l 25
+ 0 202 l 25
+ 0 808 l 25
+ 606 808 l 25
+ 606 606 l 29
+ 202 606 l 1
+ 202 505 l 25
+ 404 505 l 1
+ 404 303 l 25
+ 202 303 l 25
+ 202 202 l 25
+ 606 202 l 25
+ 606 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 9
+Width: 909
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+0 0 m 25
+ 0 1010 l 25
+ 202 1010 l 25
+ 606 707 l 25
+ 606 1010 l 25
+ 808 1010 l 25
+ 808 -404 l 1
+ 606 -202 l 1
+ 606 458 l 5
+ 202 756 l 1
+ 202 0 l 1
+ 0 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 10
+Width: 404
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: NameMe.1114112
+Encoding: 1114112 -1 11
+Width: 909
+VWidth: 0
+Flags: W
+HStem: 0 202<264 606> 788 20G<520.244 808>
+VStem: 606 202<202 566>
+LayerCount: 2
+Fore
+SplineSet
+606 202 m 1
+ 606 566 l 1
+ 264 202 l 1
+ 606 202 l 1
+808 0 m 1
+ 202 0 l 25
+ 0 202 l 1
+ 538 808 l 25
+ 808 808 l 25
+ 808 0 l 1
 EndSplineSet
 EndChar
 EndChars
