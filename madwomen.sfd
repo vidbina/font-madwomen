@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1507840537
-ModificationTime: 1507842481
+ModificationTime: 1507844281
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,7 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 21 7 10
+WinInfo: 48 24 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -90,31 +90,103 @@ Grid
  3000 808 l 1024
   Named: "x-height"
 EndSplineSet
-BeginChars: 1114112 1
+BeginChars: 1114112 4
 
 StartChar: M
 Encoding: 77 77 0
-Width: 0
+Width: 909
 VWidth: 0
-Flags: WO
-HStem: 0 21G<0 202>
-VStem: 0 202<0 606> 606 202<-202 606>
+Flags: HW
+HStem: 0 21G<50.5004 252.5>
+VStem: 50.5004 202<0 606> 656.5 202<-202 606>
 LayerCount: 2
 Fore
 SplineSet
-0 0 m 25
- 0 1010 l 25
- 202 1010 l 25
- 404 707 l 25
- 606 1010 l 25
+50.5 0 m 25
+ 50.5 1010 l 25
+ 252.5 1010 l 25
+ 454.5 707 l 25
+ 656.5 1010 l 25
+ 858.5 808 l 25
+ 858.5 -404 l 25
+ 656.5 -202 l 1
+ 656.5 606 l 25
+ 454.5 404 l 1
+ 252.5 606 l 25
+ 252.5 0 l 1
+ 50.5 0 l 25
+EndSplineSet
+EndChar
+
+StartChar: A
+Encoding: 65 65 1
+Width: 858
+VWidth: 0
+Flags: HW
+HStem: 0 202<264 606> 788 20G<520.244 808>
+VStem: 606 202<202 566>
+LayerCount: 2
+Fore
+SplineSet
+606 202 m 1
+ 606 566 l 1
+ 264 202 l 1
+ 606 202 l 1
+808 0 m 1
+ 202 0 l 25
+ 0 202 l 1
+ 538 808 l 25
  808 808 l 25
- 808 -404 l 25
- 606 -202 l 1
- 606 606 l 25
- 404 404 l 1
- 202 606 l 25
- 202 0 l 1
+ 808 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: D
+Encoding: 68 68 2
+Width: 707
+VWidth: 0
+Flags: HW
+HStem: 0 202<253 455> 606 202<253 455>
+VStem: 51 202<202 606> 455 202<202 606>
+LayerCount: 2
+Fore
+SplineSet
+253 202 m 1
+ 455 202 l 1
+ 455 606 l 1
+ 253 606 l 1
+ 253 202 l 1
+51 0 m 1
+ 51 808 l 1
+ 455 808 l 1
+ 657 606 l 1
+ 657 202 l 1
+ 455 0 l 1
+ 51 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: w
+Encoding: 119 119 3
+Width: 2024
+VWidth: 0
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+202 -202 m 1
  0 0 l 25
+ 0 1212 l 25
+ 202 1010 l 1
+ 202 144 l 25
+ 404 404 l 1
+ 606 144 l 25
+ 606 808 l 1
+ 808 808 l 1
+ 808 -202 l 5
+ 606 -202 l 1
+ 404 54 l 1
+ 202 -202 l 1
 EndSplineSet
 EndChar
 EndChars
