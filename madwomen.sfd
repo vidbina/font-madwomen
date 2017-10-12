@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1507840537
-ModificationTime: 1507842229
+ModificationTime: 1507842481
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,8 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 7 10
-OnlyBitmaps: 1
+WinInfo: 21 7 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -95,10 +94,28 @@ BeginChars: 1114112 1
 
 StartChar: M
 Encoding: 77 77 0
-Width: 2024
+Width: 0
 VWidth: 0
 Flags: WO
+HStem: 0 21G<0 202>
+VStem: 0 202<0 606> 606 202<-202 606>
 LayerCount: 2
+Fore
+SplineSet
+0 0 m 25
+ 0 1010 l 25
+ 202 1010 l 25
+ 404 707 l 25
+ 606 1010 l 25
+ 808 808 l 25
+ 808 -404 l 25
+ 606 -202 l 1
+ 606 606 l 25
+ 404 404 l 1
+ 202 606 l 25
+ 202 0 l 1
+ 0 0 l 25
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
