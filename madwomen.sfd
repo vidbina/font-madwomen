@@ -1,16 +1,16 @@
 SplineFontDB: 3.0
-FontName: Untitled1
-FullName: Untitled1
-FamilyName: Untitled1
+FontName: MadWomen
+FullName: Mad Women
+FamilyName: MadWomen
 Weight: Regular
 Copyright: Copyright (c) 2017, David Asabina <vid@bina>
 UComments: "2017-10-12: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
-UnderlinePosition: -202
-UnderlineWidth: 101
-Ascent: 1619
-Descent: 405
+UnderlinePosition: 0
+UnderlineWidth: 808
+Ascent: 1517
+Descent: 507
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1507840537
-ModificationTime: 1507840537
+ModificationTime: 1507841825
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,6 +35,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeFull
 UnicodeInterp: none
@@ -42,8 +43,47 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 48 24 10
+WinInfo: 42 7 10
 OnlyBitmaps: 1
-BeginChars: 1114112 0
+BeginPrivate: 0
+EndPrivate
+Grid
+606 1500 m 0
+ 606 -1000 l 1028
+  Named: "b"
+202 1500 m 0
+ 202 -1000 l 1024
+  Named: "a"
+404 1500 m 0
+ 404 -1000 l 1024
+  Named: "y-mid"
+-500 -202 m 0
+ 2500 -202 l 1024
+  Named: "w-base"
+-1000 -404 m 0
+ 3000 -404 l 1024
+  Named: "cap-tip"
+-500 1010 m 0
+ 2500 1010 l 1024
+  Named: "m-height"
+-1000 1212 m 0
+ 3000 1212 l 1024
+  Named: "cap-height"
+808 1500 m 0
+ 808 -1000 l 1024
+  Named: "char-width"
+-1000 808 m 0
+ 3000 808 l 1024
+  Named: "x-height"
+EndSplineSet
+BeginChars: 1114112 1
+
+StartChar: M
+Encoding: 77 77 0
+Width: 2024
+VWidth: 0
+Flags: WO
+LayerCount: 2
+EndChar
 EndChars
 EndSplineFont
