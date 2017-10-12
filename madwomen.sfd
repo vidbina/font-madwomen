@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1507840537
-ModificationTime: 1507841825
+ModificationTime: 1507842041
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -48,8 +48,17 @@ OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
 Grid
+-500 202 m 0
+ 2500 202 l 1028
+  Named: "1"
+-1500 404 m 0
+ 3000 404 l 1024
+  Named: "2"
+-500 606 m 0
+ 2500 606 l 1024
+  Named: "3"
 606 1500 m 0
- 606 -1000 l 1028
+ 606 -1000 l 1024
   Named: "b"
 202 1500 m 0
  202 -1000 l 1024
